@@ -20,7 +20,9 @@
 1. 安装扩展后，打开 [ChatGPT官网](https://chatgpt.com)
 2. 在浏览器右上角找到扩展图标，点击选择"ChatGPT信息获取"
 3. 在弹出的界面中，扩展将自动获取并显示Account Token和订阅到期时间、账号邮箱
-4. ![Snipaste_2024-08-27_09-58-35](https://github.com/user-attachments/assets/bd61553d-e8a5-4a3c-9395-eab3aa03ea99)
+
+效果截图：
+![Snipaste_2024-08-27_09-58-35](https://github.com/user-attachments/assets/bd61553d-e8a5-4a3c-9395-eab3aa03ea99)
 
 ## 注意事项
 
