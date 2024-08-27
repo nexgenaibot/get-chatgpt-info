@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "ChatGPT 信息 - 增强版",
+    "version": "1.8",
+    "permissions": ["activeTab", "storage"],
+    "host_permissions": ["https://chatgpt.com/*"],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://chatgpt.com/*"],
+            "js": ["content.js"]
+        }
+    ],
+    "content_security_policy": {
+        "extension_pages": "script-src 'self'; object-src 'self'"
+    }
+}

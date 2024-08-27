@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>ChatGPT 信息 - 增强版</title>
+    <style>
+        body {
+            width: 400px;
+            padding: 16px;
+            font-family: Arial, sans-serif;
+            background-color: #1e1e1e;
+            color: #e0e0e0;
+        }
+        h2 {
+            margin-top: 0;
+            color: #4CAF50;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            text-align: center;
+            font-size: 14px;
+            margin: 8px 0;
+            cursor: pointer;
+            width: 100%;
+            transition: background-color 0.3s ease;
+        }
+        button.copied {
+            background-color: #45a049;
+        }
+        input[type="text"] {
+            width: calc(100% - 16px);
+            padding: 8px;
+            margin: 4px 0;
+            background-color: #2d2d2d;
+            color: #e0e0e0;
+            border: 1px solid #4a4a4a;
+        }
+        #log {
+            background-color: #000;
+            color: #0f0;
+            padding: 8px;
+            margin-top: 16px;
+            height: 150px;
+            overflow-y: auto;
+            font-family: 'Courier New', monospace;
+            font-size: 12px;
+        }
+        .result-container {
+            margin-top: 12px;
+        }
+        .result-label {
+            font-weight: bold;
+            margin-bottom: 4px;
+        }
+    </style>
+</head>
+<body>
+<h2>ChatGPT 信息 - 增强版</h2>
+<div id="results"></div>
+<button id="fetchInfo">手动获取信息</button>
+<div id="log"></div>
+<script src="popup.js"></script>
+</body>
+</html>
