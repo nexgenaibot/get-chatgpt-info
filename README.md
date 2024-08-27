@@ -22,6 +22,7 @@
 3. 在弹出的界面中，扩展将自动获取并显示Account Token和订阅到期时间、账号邮箱
 
 效果截图：
+
 ![Snipaste_2024-08-27_09-58-35](https://github.com/user-attachments/assets/bd61553d-e8a5-4a3c-9395-eab3aa03ea99)
 
 ## 注意事项
